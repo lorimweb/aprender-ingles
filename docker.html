@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docker - Treinar Inglês</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#667eea',
+                        secondary: '#764ba2'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gradient-to-br from-primary via-purple-500 to-secondary min-h-screen p-4 sm:p-6 lg:p-8">
+    <div class="max-w-4xl mx-auto bg-white rounded-3xl shadow-2xl p-6 sm:p-8 lg:p-12">
+        <a href="index.html" class="inline-flex items-center text-primary hover:text-secondary font-semibold mb-6 transition-colors duration-300 group">
+            <svg class="w-5 h-5 mr-2 group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
+            </svg>
+            Voltar para Home
+        </a>
+        
+        <div class="text-center mb-8">
+            <div class="text-7xl mb-4 animate-bounce">🐳</div>
+            <h1 class="text-4xl sm:text-5xl font-bold text-primary mb-2">Docker</h1>
+        </div>
+
+        <div class="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-6 sm:p-8 mb-8 border-2 border-primary/20 shadow-lg">
+            <h3 class="text-xl font-semibold text-primary mb-4 flex items-center justify-center">
+                <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M18 3a1 1 0 00-1.196-.98l-10 2A1 1 0 006 5v9.114A4.369 4.369 0 005 14c-1.657 0-3 .895-3 2s1.343 2 3 2 3-.895 3-2V7.82l8-1.6v5.894A4.37 4.37 0 0015 12c-1.657 0-3 .895-3 2s1.343 2 3 2 3-.895 3-2V3z"/>
+                </svg>
+                Ouça o texto em inglês
+            </h3>
+            <audio controls class="w-full max-w-md mx-auto rounded-lg shadow-md">
+                <source src="audio/docker.mp3" type="audio/mpeg">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+        </div>
+
+        <div class="bg-blue-50 border-l-4 border-primary rounded-xl p-6 sm:p-8 mb-6 shadow-md hover:shadow-lg transition-shadow">
+            <h2 class="text-2xl sm:text-3xl font-bold text-primary mb-4 flex items-center">
+                <span class="mr-3">📖</span>
+                English Text
+            </h2>
+            <p class="text-gray-800 text-lg leading-relaxed">
+                Docker is a platform that revolutionized software deployment through containerization. Containers package applications with all their dependencies, ensuring they run consistently across different environments. Unlike virtual machines, Docker containers share the host operating system, making them lightweight and fast to start. A Dockerfile defines the container image with instructions to build the application environment. Docker images are immutable templates, while containers are running instances of those images. Docker Hub serves as a registry where developers can share and download pre-built images. Docker Compose allows managing multi-container applications with a single configuration file. Benefits include isolation, portability, scalability, and efficient resource usage. Docker simplifies development workflows, enables microservices architectures, and ensures that applications work the same way in development, testing, and production environments.
+            </p>
+        </div>
+
+        <div class="bg-green-50 border-l-4 border-green-500 rounded-xl p-6 sm:p-8 shadow-md hover:shadow-lg transition-shadow">
+            <h2 class="text-2xl sm:text-3xl font-bold text-green-600 mb-4 flex items-center">
+                <span class="mr-3">🇧🇷</span>
+                Tradução em Português
+            </h2>
+            <p class="text-gray-800 text-lg leading-relaxed">
+                Docker é uma plataforma que revolucionou o deployment de software através da containerização. Containers empacotam aplicações com todas suas dependências, garantindo que executem consistentemente em diferentes ambientes. Diferente de máquinas virtuais, containers Docker compartilham o sistema operacional host, tornando-os leves e rápidos para iniciar. Um Dockerfile define a imagem do container com instruções para construir o ambiente da aplicação. Imagens Docker são templates imutáveis, enquanto containers são instâncias em execução dessas imagens. Docker Hub serve como um registro onde desenvolvedores podem compartilhar e baixar imagens pré-construídas. Docker Compose permite gerenciar aplicações multi-container com um único arquivo de configuração. Benefícios incluem isolamento, portabilidade, escalabilidade e uso eficiente de recursos. Docker simplifica fluxos de trabalho de desenvolvimento, habilita arquiteturas de microserviços e garante que aplicações funcionem da mesma forma em ambientes de desenvolvimento, teste e produção.
+            </p>
+        </div>
+    </div>
+</body>
+</html>

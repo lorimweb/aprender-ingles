@@ -4,7 +4,7 @@ Plataforma educacional moderna para prática de inglês com textos contextualiza
 
 ## 📚 Conteúdo
 
-O site contém 9 lições organizadas em categorias:
+O site contém **12 lições** organizadas em categorias:
 
 ### 🏪 Situações do Dia a Dia
 1. **No Supermercado** 🛒 - Vocabulário sobre compras e produtos
@@ -18,6 +18,9 @@ O site contém 9 lições organizadas em categorias:
 7. **Programação** 👨‍💻 - Back-end, Java, SOLID e arquitetura
 8. **Código Limpo** 📝 - Clean Code, boas práticas e legibilidade
 9. **CI/CD com Jenkins** 🔄 - Integração e deploy contínuo
+10. **React** ⚛️ - Biblioteca JavaScript para interfaces
+11. **Docker** 🐳 - Containerização e deployment
+12. **Kubernetes** ☸️ - Orquestração de containers
 
 ## 🎯 Recursos de cada lição
 
@@ -50,9 +53,13 @@ treinar-ingles/
 ├── weekend-trip.html      # Viagem de fim de semana
 ├── technology.html        # Tecnologias modernas
 ├── programming.html       # Programação e desenvolvimento
-├── clean-code.html        # Código limpo (NOVO)
-├── cicd-jenkins.html      # CI/CD com Jenkins (NOVO)
+├── clean-code.html        # Código limpo
+├── cicd-jenkins.html      # CI/CD com Jenkins
+├── react.html             # React (NOVO)
+├── docker.html            # Docker (NOVO)
+├── kubernetes.html        # Kubernetes (NOVO)
 ├── abrir-blog.sh          # Script para abrir o blog
+├── README.md              # Documentação completa
 ├── css/
 │   └── style.css          # Estilos legados
 ├── js/
@@ -65,8 +72,11 @@ treinar-ingles/
     ├── weekend-trip.mp3
     ├── technology.mp3
     ├── programming.mp3
-    ├── clean-code.mp3      # (Precisa ser gerado)
-    └── cicd-jenkins.mp3    # (Precisa ser gerado)
+    ├── clean-code.mp3
+    ├── cicd-jenkins.mp3
+    ├── react.mp3           # ✅ Gerado
+    ├── docker.mp3          # ✅ Gerado
+    └── kubernetes.mp3      # ✅ Gerado
 ```
 
 ## 💡 Metodologia de estudo recomendada
@@ -173,6 +183,9 @@ treinar-ingles/
 | Programação | Avançado | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
 | Código Limpo | Avançado | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
 | CI/CD Jenkins | Avançado | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
+| React | Avançado | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
+| Docker | Avançado | ⭐⭐⭐⭐ | ⭐⭐⭐ |
+| Kubernetes | Avançado | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
 
 ## 🔧 Desenvolvimento
 
@@ -204,28 +217,48 @@ Todas as páginas de lição seguem o mesmo padrão:
 6. Seção de texto em inglês (azul)
 7. Seção de tradução em português (verde)
 
-## 🎤 Áudios Pendentes
+## 🎤 Status dos Áudios
 
-Para completar o projeto, é necessário gerar os seguintes áudios com voz masculina:
+### ✅ Áudios Completos
+Todos os áudios foram gerados com sucesso:
 
-- ⏳ `audio/clean-code.mp3` - Narração do texto sobre Código Limpo
-- ⏳ `audio/cicd-jenkins.mp3` - Narração do texto sobre CI/CD com Jenkins
+- ✅ `audio/supermarket.mp3`
+- ✅ `audio/daily-routine.mp3`
+- ✅ `audio/doctor.mp3`
+- ✅ `audio/restaurant.mp3`
+- ✅ `audio/weekend-trip.mp3`
+- ✅ `audio/technology.mp3`
+- ✅ `audio/programming.mp3`
+- ✅ `audio/clean-code.mp3`
+- ✅ `audio/cicd-jenkins.mp3`
+- ✅ `audio/react.mp3` (NOVO)
+- ✅ `audio/docker.mp3` (NOVO)
+- ✅ `audio/kubernetes.mp3` (NOVO)
 
-**Instruções para geração:**
-- Use voz masculina natural
-- Taxa de bits: 128-192 kbps
+**Características dos áudios:**
+- Voz masculina natural e profissional
+- Taxa de bits: 128 kbps
 - Formato: MP3
 - Pronúncia clara e pausada
-- Velocidade moderada (não muito rápida)
+- Velocidade moderada ideal para aprendizado
 
-## 📈 Melhorias Recentes (v2.0)
+## 📈 Atualizações Recentes
 
-### ✅ Concluído em Janeiro 2026
+### ✅ v2.1 - Janeiro 2026 (ATUAL)
+- [x] Adicionada página **React** ⚛️ - Biblioteca JavaScript para UIs
+- [x] Adicionada página **Docker** 🐳 - Containerização de aplicações
+- [x] Adicionada página **Kubernetes** ☸️ - Orquestração de containers
+- [x] Gerados áudios profissionais para as 3 novas páginas
+- [x] Atualizado index.html com os novos cards
+- [x] Documentação README.md completamente atualizada
+- [x] Total de 12 lições disponíveis
+
+### ✅ v2.0 - Janeiro 2026
 - [x] Migração completa para Tailwind CSS
 - [x] Remoção de todo CSS inline
 - [x] Design responsivo moderno
 - [x] Organização de arquivos de áudio
-- [x] Adição de 2 novas lições técnicas
+- [x] Adição de 2 lições técnicas (Clean Code e CI/CD)
 - [x] Documentação completa atualizada
 - [x] Grid adaptativo na página inicial
 - [x] Animações e efeitos visuais
@@ -242,9 +275,11 @@ Para completar o projeto, é necessário gerar os seguintes áudios com voz masc
 - [ ] Download de áudios
 - [ ] Controle de velocidade do áudio
 - [ ] Legendas sincronizadas
-- [ ] Mais lições técnicas (React, Docker, Kubernetes)
+- [ ] Mais lições técnicas (AWS, GraphQL, TypeScript)
 - [ ] Exercícios de pronúncia com reconhecimento de voz
 - [ ] PWA (Progressive Web App) para uso offline
+- [ ] Sistema de conquistas e gamificação
+- [ ] Compartilhamento de progresso nas redes sociais
 
 ## 🤝 Contribuindo
 
@@ -262,9 +297,11 @@ Este projeto é educacional e de código aberto.
 
 ---
 
-**Versão 2.0** - Atualizado em Janeiro de 2026
+**Versão 2.1** - Atualizado em Janeiro de 2026
 
 ✨ **Criado com ❤️ para estudantes de inglês** ✨
+
+**Total de lições: 12** | **Áudios completos: 12/12** ✅
 
 📧 Contato: [Seu email aqui]
 🌐 Website: [Seu site aqui]
