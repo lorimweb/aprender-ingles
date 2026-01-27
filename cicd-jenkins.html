@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CI/CD com Jenkins - Aprender Inglês</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#667eea',
+                        secondary: '#764ba2'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gradient-to-br from-primary via-purple-500 to-secondary min-h-screen p-4 sm:p-6 lg:p-8">
+    <div class="max-w-4xl mx-auto bg-white rounded-3xl shadow-2xl p-6 sm:p-8 lg:p-12">
+        <a href="index.html" class="inline-flex items-center text-primary hover:text-secondary font-semibold mb-6 transition-colors duration-300 group">
+            <svg class="w-5 h-5 mr-2 group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
+            </svg>
+            Voltar para Home
+        </a>
+        
+        <div class="text-center mb-8">
+            <div class="text-7xl mb-4 animate-bounce">🔄</div>
+            <h1 class="text-4xl sm:text-5xl font-bold text-primary mb-2">CI/CD com Jenkins</h1>
+        </div>
+
+        <div class="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-6 sm:p-8 mb-8 border-2 border-primary/20 shadow-lg">
+            <h3 class="text-xl font-semibold text-primary mb-4 flex items-center justify-center">
+                <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M18 3a1 1 0 00-1.196-.98l-10 2A1 1 0 006 5v9.114A4.369 4.369 0 005 14c-1.657 0-3 .895-3 2s1.343 2 3 2 3-.895 3-2V7.82l8-1.6v5.894A4.37 4.37 0 0015 12c-1.657 0-3 .895-3 2s1.343 2 3 2 3-.895 3-2V3z"/>
+                </svg>
+                Ouça o texto em inglês
+            </h3>
+            <audio controls class="w-full max-w-md mx-auto rounded-lg shadow-md">
+                <source src="audio/cicd-jenkins.mp3" type="audio/mpeg">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+        </div>
+
+        <div class="bg-blue-50 border-l-4 border-primary rounded-xl p-6 sm:p-8 mb-6 shadow-md hover:shadow-lg transition-shadow">
+            <h2 class="text-2xl sm:text-3xl font-bold text-primary mb-4 flex items-center">
+                <span class="mr-3">📖</span>
+                English Text
+            </h2>
+            <p class="text-gray-800 text-lg leading-relaxed">
+                Continuous Integration and Continuous Deployment (CI/CD) are essential practices in modern software development. Jenkins is one of the most popular open-source automation servers used to implement CI/CD pipelines. With Jenkins, developers can automatically build, test, and deploy their applications whenever code changes are pushed to the repository. A typical Jenkins pipeline includes several stages: first, it pulls the latest code from version control. Then, it compiles the code and runs automated tests to ensure everything works correctly. If tests pass, the pipeline can deploy the application to staging or production environments. Jenkins supports plugins for various tools and technologies, making it highly flexible and customizable. Setting up proper CI/CD pipelines improves code quality, reduces manual errors, and accelerates the software delivery process. Teams can catch bugs earlier and release features faster with confidence.
+            </p>
+        </div>
+
+        <div class="bg-green-50 border-l-4 border-green-500 rounded-xl p-6 sm:p-8 shadow-md hover:shadow-lg transition-shadow">
+            <h2 class="text-2xl sm:text-3xl font-bold text-green-600 mb-4 flex items-center">
+                <span class="mr-3">🇧🇷</span>
+                Tradução em Português
+            </h2>
+            <p class="text-gray-800 text-lg leading-relaxed">
+                Integração Contínua e Deployment Contínuo (CI/CD) são práticas essenciais no desenvolvimento moderno de software. Jenkins é um dos servidores de automação open-source mais populares usados para implementar pipelines de CI/CD. Com Jenkins, desenvolvedores podem automaticamente compilar, testar e fazer deploy de suas aplicações sempre que mudanças de código são enviadas ao repositório. Um pipeline típico do Jenkins inclui várias etapas: primeiro, ele puxa o código mais recente do controle de versão. Depois, compila o código e executa testes automatizados para garantir que tudo funciona corretamente. Se os testes passarem, o pipeline pode fazer deploy da aplicação para ambientes de staging ou produção. Jenkins suporta plugins para várias ferramentas e tecnologias, tornando-o altamente flexível e customizável. Configurar pipelines de CI/CD adequados melhora a qualidade do código, reduz erros manuais e acelera o processo de entrega de software. Equipes podem detectar bugs mais cedo e lançar funcionalidades mais rapidamente com confiança.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
