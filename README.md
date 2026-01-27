@@ -4,7 +4,7 @@ Plataforma educacional moderna para prática de inglês com textos contextualiza
 
 ## 📚 Conteúdo
 
-O site contém **12 lições** organizadas em categorias:
+O site contém **16 lições** organizadas em categorias:
 
 ### 🏪 Situações do Dia a Dia
 1. **No Supermercado** 🛒 - Vocabulário sobre compras e produtos
@@ -12,21 +12,26 @@ O site contém **12 lições** organizadas em categorias:
 3. **Visita ao Médico** 🏥 - Vocabulário médico e consultas
 4. **No Restaurante** 🍽️ - Pedindo comida, bebidas e pagamento
 5. **Viagem de Fim de Semana** ✈️ - Planejamento e turismo
+6. **Como Fazer Amigos** 🤝 - Habilidades sociais e networking (NOVO)
 
 ### 💻 Tecnologia e Programação
-6. **Tecnologias** 💻 - Vocabulário tech, IA, IoT e cloud computing
-7. **Programação** 👨‍💻 - Back-end, Java, SOLID e arquitetura
-8. **Código Limpo** 📝 - Clean Code, boas práticas e legibilidade
-9. **CI/CD com Jenkins** 🔄 - Integração e deploy contínuo
-10. **React** ⚛️ - Biblioteca JavaScript para interfaces
-11. **Docker** 🐳 - Containerização e deployment
-12. **Kubernetes** ☸️ - Orquestração de containers
+7. **Tecnologias** 💻 - Vocabulário tech, IA, IoT e cloud computing
+8. **Programação** 👨‍💻 - Back-end, Java, SOLID e arquitetura
+9. **Código Limpo** 📝 - Clean Code, boas práticas e legibilidade
+10. **CI/CD com Jenkins** 🔄 - Integração e deploy contínuo
+11. **React** ⚛️ - Biblioteca JavaScript para interfaces
+12. **Docker** 🐳 - Containerização e deployment
+13. **Kubernetes** ☸️ - Orquestração de containers
+14. **AWS** ☁️ - Amazon Web Services e cloud computing (NOVO)
+15. **GraphQL** 🔷 - Linguagem de consulta para APIs (NOVO)
+16. **TypeScript** 📘 - JavaScript com tipagem estática (NOVO)
 
 ## 🎯 Recursos de cada lição
 
 - ✅ Texto em inglês autêntico e contextualizado
 - ✅ Tradução completa e natural em português
 - ✅ Player de áudio HTML5 com narração profissional
+- ✅ **Texto justificado** para melhor leitura (NOVO)
 - ✅ Design responsivo e elegante com Tailwind CSS
 - ✅ Interface moderna com animações suaves
 - ✅ Feedback visual em interações
@@ -55,11 +60,16 @@ treinar-ingles/
 ├── programming.html       # Programação e desenvolvimento
 ├── clean-code.html        # Código limpo
 ├── cicd-jenkins.html      # CI/CD com Jenkins
-├── react.html             # React (NOVO)
-├── docker.html            # Docker (NOVO)
-├── kubernetes.html        # Kubernetes (NOVO)
+├── react.html             # React
+├── docker.html            # Docker
+├── kubernetes.html        # Kubernetes
+├── aws.html               # AWS (NOVO)
+├── graphql.html           # GraphQL (NOVO)
+├── typescript.html        # TypeScript (NOVO)
+├── making-friends.html    # Como Fazer Amigos (NOVO)
 ├── abrir-blog.sh          # Script para abrir o blog
 ├── README.md              # Documentação completa
+├── CHANGELOG.md           # Histórico de versões
 ├── css/
 │   └── style.css          # Estilos legados
 ├── js/
@@ -74,9 +84,13 @@ treinar-ingles/
     ├── programming.mp3
     ├── clean-code.mp3
     ├── cicd-jenkins.mp3
-    ├── react.mp3           # ✅ Gerado
-    ├── docker.mp3          # ✅ Gerado
-    └── kubernetes.mp3      # ✅ Gerado
+    ├── react.mp3
+    ├── docker.mp3
+    ├── kubernetes.mp3
+    ├── aws.mp3             # ✅ Gerado
+    ├── graphql.mp3         # ✅ Gerado
+    ├── typescript.mp3      # ✅ Gerado
+    └── making-friends.mp3  # ✅ Gerado
 ```
 
 ## 💡 Metodologia de estudo recomendada
@@ -179,6 +193,7 @@ treinar-ingles/
 | Médico | Intermediário | ⭐⭐⭐ | ⭐⭐⭐ |
 | Restaurante | Básico | ⭐⭐ | ⭐⭐ |
 | Viagem | Intermediário | ⭐⭐⭐ | ⭐⭐⭐ |
+| Fazer Amigos | Intermediário | ⭐⭐⭐ | ⭐⭐⭐ |
 | Tecnologias | Avançado | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
 | Programação | Avançado | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
 | Código Limpo | Avançado | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
@@ -186,6 +201,9 @@ treinar-ingles/
 | React | Avançado | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
 | Docker | Avançado | ⭐⭐⭐⭐ | ⭐⭐⭐ |
 | Kubernetes | Avançado | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
+| AWS | Avançado | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
+| GraphQL | Avançado | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
+| TypeScript | Avançado | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
 
 ## 🔧 Desenvolvimento
 
@@ -231,9 +249,13 @@ Todos os áudios foram gerados com sucesso:
 - ✅ `audio/programming.mp3`
 - ✅ `audio/clean-code.mp3`
 - ✅ `audio/cicd-jenkins.mp3`
-- ✅ `audio/react.mp3` (NOVO)
-- ✅ `audio/docker.mp3` (NOVO)
-- ✅ `audio/kubernetes.mp3` (NOVO)
+- ✅ `audio/react.mp3`
+- ✅ `audio/docker.mp3`
+- ✅ `audio/kubernetes.mp3`
+- ✅ `audio/aws.mp3` (NOVO)
+- ✅ `audio/graphql.mp3` (NOVO)
+- ✅ `audio/typescript.mp3` (NOVO)
+- ✅ `audio/making-friends.mp3` (NOVO)
 
 **Características dos áudios:**
 - Voz masculina natural e profissional
@@ -244,7 +266,18 @@ Todos os áudios foram gerados com sucesso:
 
 ## 📈 Atualizações Recentes
 
-### ✅ v2.1 - Janeiro 2026 (ATUAL)
+### ✅ v2.2 - Janeiro 2026 (ATUAL)
+- [x] Adicionada página **AWS** ☁️ - Amazon Web Services e cloud computing
+- [x] Adicionada página **GraphQL** 🔷 - Linguagem de consulta para APIs
+- [x] Adicionada página **TypeScript** 📘 - JavaScript com tipagem estática
+- [x] Adicionada página **Como Fazer Amigos** 🤝 - Habilidades sociais
+- [x] Gerados áudios profissionais para as 4 novas páginas
+- [x] **Adicionado text-justify em todas as páginas** para melhor legibilidade
+- [x] Atualizado index.html com os novos cards
+- [x] Documentação README.md completamente atualizada
+- [x] Total de **16 lições** disponíveis
+
+### ✅ v2.1 - Janeiro 2026
 - [x] Adicionada página **React** ⚛️ - Biblioteca JavaScript para UIs
 - [x] Adicionada página **Docker** 🐳 - Containerização de aplicações
 - [x] Adicionada página **Kubernetes** ☸️ - Orquestração de containers
@@ -275,7 +308,7 @@ Todos os áudios foram gerados com sucesso:
 - [ ] Download de áudios
 - [ ] Controle de velocidade do áudio
 - [ ] Legendas sincronizadas
-- [ ] Mais lições técnicas (AWS, GraphQL, TypeScript)
+- [ ] Mais lições sobre soft skills e relacionamentos
 - [ ] Exercícios de pronúncia com reconhecimento de voz
 - [ ] PWA (Progressive Web App) para uso offline
 - [ ] Sistema de conquistas e gamificação
@@ -297,11 +330,11 @@ Este projeto é educacional e de código aberto.
 
 ---
 
-**Versão 2.1** - Atualizado em Janeiro de 2026
+**Versão 2.2** - Atualizado em Janeiro de 2026
 
 ✨ **Criado com ❤️ para estudantes de inglês** ✨
 
-**Total de lições: 12** | **Áudios completos: 12/12** ✅
+**Total de lições: 16** | **Áudios completos: 16/16** ✅
 
 📧 Contato: [Seu email aqui]
 🌐 Website: [Seu site aqui]
