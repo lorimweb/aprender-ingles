@@ -25,6 +25,7 @@ O site contém **16 lições** organizadas em categorias:
 14. **AWS** ☁️ - Amazon Web Services e cloud computing (NOVO)
 15. **GraphQL** 🔷 - Linguagem de consulta para APIs (NOVO)
 16. **TypeScript** 📘 - JavaScript com tipagem estática (NOVO)
+17. **Angular** 🔺 - Framework para aplicações web (NOVO)
 
 ## 🎯 Recursos de cada lição
 
@@ -66,6 +67,7 @@ treinar-ingles/
 ├── aws.html               # AWS (NOVO)
 ├── graphql.html           # GraphQL (NOVO)
 ├── typescript.html        # TypeScript (NOVO)
+├── angular.html           # Angular (NOVO)
 ├── making-friends.html    # Como Fazer Amigos (NOVO)
 ├── abrir-blog.sh          # Script para abrir o blog
 ├── README.md              # Documentação completa
@@ -204,6 +206,7 @@ treinar-ingles/
 | AWS | Avançado | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
 | GraphQL | Avançado | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
 | TypeScript | Avançado | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
+| Angular | Avançado | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
 
 ## 🔧 Desenvolvimento
 
@@ -255,6 +258,7 @@ Todos os áudios foram gerados com sucesso:
 - ✅ `audio/aws.mp3` (NOVO)
 - ✅ `audio/graphql.mp3` (NOVO)
 - ✅ `audio/typescript.mp3` (NOVO)
+- ✅ `audio/angular.mp3` (NOVO)
 - ✅ `audio/making-friends.mp3` (NOVO)
 
 **Características dos áudios:**
@@ -266,16 +270,17 @@ Todos os áudios foram gerados com sucesso:
 
 ## 📈 Atualizações Recentes
 
-### ✅ v2.2 - Janeiro 2026 (ATUAL)
+### ✅ v2.3 - Janeiro 2026 (ATUAL)
 - [x] Adicionada página **AWS** ☁️ - Amazon Web Services e cloud computing
 - [x] Adicionada página **GraphQL** 🔷 - Linguagem de consulta para APIs
 - [x] Adicionada página **TypeScript** 📘 - JavaScript com tipagem estática
+- [x] Adicionada página **Angular** 🔺 - Framework para aplicações web
 - [x] Adicionada página **Como Fazer Amigos** 🤝 - Habilidades sociais
-- [x] Gerados áudios profissionais para as 4 novas páginas
+- [x] Gerados áudios profissionais para as 5 novas páginas
 - [x] **Adicionado text-justify em todas as páginas** para melhor legibilidade
 - [x] Atualizado index.html com os novos cards
 - [x] Documentação README.md completamente atualizada
-- [x] Total de **16 lições** disponíveis
+- [x] Total de **17 lições** disponíveis
 
 ### ✅ v2.1 - Janeiro 2026
 - [x] Adicionada página **React** ⚛️ - Biblioteca JavaScript para UIs
@@ -330,11 +335,11 @@ Este projeto é educacional e de código aberto.
 
 ---
 
-**Versão 2.2** - Atualizado em Janeiro de 2026
+**Versão 2.3** - Atualizado em Janeiro de 2026
 
 ✨ **Criado com ❤️ para estudantes de inglês** ✨
 
-**Total de lições: 16** | **Áudios completos: 16/16** ✅
+**Total de lições: 17** | **Áudios completos: 17/17** ✅
 
 📧 Contato: [Seu email aqui]
 🌐 Website: [Seu site aqui]
