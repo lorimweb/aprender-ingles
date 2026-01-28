@@ -12,246 +12,200 @@
                     colors: {
                         primary: '#667eea',
                         secondary: '#764ba2'
-                    },
-                    animation: {
-                        'float': 'float 6s ease-in-out infinite',
-                        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-                        'bounce-slow': 'bounce 3s infinite'
-                    },
-                    keyframes: {
-                        float: {
-                            '0%, 100%': { transform: 'translateY(0px)' },
-                            '50%': { transform: 'translateY(-20px)' }
-                        }
                     }
                 }
             }
         }
     </script>
-    <style>
-        .card-hover {
-            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-        }
-        .card-hover:hover {
-            transform: translateY(-15px) scale(1.03);
-            box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3);
-        }
-        .gradient-text {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-        .floating-element {
-            animation: float 6s ease-in-out infinite;
-        }
-        .glass-card {
-            backdrop-filter: blur(10px);
-            background: rgba(255, 255, 255, 0.15);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-        }
-    </style>
 </head>
-<body class="bg-gradient-to-br from-primary via-purple-600 to-secondary min-h-screen relative overflow-hidden">
-    <!-- Animated background elements -->
-    <div class="absolute inset-0 overflow-hidden pointer-events-none">
-        <div class="absolute -top-40 -right-40 w-80 h-80 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse"></div>
-        <div class="absolute -bottom-40 -left-40 w-80 h-80 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse animation-delay-2000"></div>
-        <div class="absolute top-40 left-1/2 w-80 h-80 bg-indigo-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse animation-delay-4000"></div>
-    </div>
-    
-    <div class="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8 relative z-10">
-        <header class="text-center py-12 md:py-20 relative">
-            <div class="absolute -top-4 -left-4 w-32 h-32 bg-yellow-400 rounded-full mix-blend-multiply filter blur-xl opacity-30 animate-pulse"></div>
-            <div class="absolute -bottom-4 -right-4 w-32 h-32 bg-pink-400 rounded-full mix-blend-multiply filter blur-xl opacity-30 animate-pulse animation-delay-2000"></div>
-            
-            <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold gradient-text mb-6 relative z-10">
-                <span class="floating-element">🎓</span> Aprender Inglês
+<body class="bg-gradient-to-br from-primary via-purple-500 to-secondary min-h-screen">
+    <div class="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
+        <header class="text-center py-12 md:py-20">
+            <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6 drop-shadow-lg">
+                🎓 Aprender Inglês
             </h1>
-            <p class="text-xl sm:text-2xl lg:text-3xl text-white mb-4 font-medium relative z-10">
+            <p class="text-xl sm:text-2xl text-white mb-4 font-medium">
                 Aprenda inglês com situações práticas do dia a dia
             </p>
-            <p class="text-base sm:text-lg lg:text-xl text-white/90 max-w-2xl mx-auto relative z-10">
+            <p class="text-base sm:text-lg text-white/90 max-w-2xl mx-auto">
                 Textos em inglês e português + Áudio para praticar pronúncia
             </p>
         </header>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8 pb-12 md:pb-20">
-            <a href="supermarket.html" class="group bg-white/90 backdrop-blur-sm rounded-3xl p-6 shadow-xl hover:shadow-2xl card-hover no-underline flex flex-col items-center text-center border border-white/20 transform transition-all duration-500">
-                <div class="text-7xl mb-4 group-hover:scale-125 transition-transform duration-500 group-hover:rotate-6">🛒</div>
-                <h2 class="text-2xl font-bold text-primary mb-4 group-hover:text-secondary transition-colors duration-300">
+            <a href="supermarket.html" class="group bg-white rounded-2xl p-5 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 transform no-underline flex flex-col items-center text-center">
+                <div class="text-6xl mb-4 group-hover:scale-110 transition-transform duration-300">🛒</div>
+                <h2 class="text-2xl font-bold text-primary mb-4 group-hover:text-secondary transition-colors">
                     No Supermercado
                 </h2>
-                <p class="text-gray-600 text-lg leading-relaxed text-center">
+                <p class="text-gray-600 text-lg leading-relaxed">
                     Aprenda vocabulário essencial sobre compras e produtos do dia a dia
                 </p>
             </a>
 
-            <a href="daily-routine.html" class="group bg-white/90 backdrop-blur-sm rounded-3xl p-6 shadow-xl hover:shadow-2xl card-hover no-underline flex flex-col items-center text-center border border-white/20 transform transition-all duration-500">
-                <div class="text-7xl mb-4 group-hover:scale-125 transition-transform duration-500 group-hover:rotate-6">☀️</div>
-                <h2 class="text-2xl font-bold text-primary mb-4 group-hover:text-secondary transition-colors duration-300">
+            <a href="daily-routine.html" class="group bg-white rounded-2xl p-5 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 transform no-underline flex flex-col items-center text-center">
+                <div class="text-6xl mb-4 group-hover:scale-110 transition-transform duration-300">☀️</div>
+                <h2 class="text-2xl font-bold text-primary mb-4 group-hover:text-secondary transition-colors">
                     Rotina Diária
                 </h2>
-                <p class="text-gray-600 text-lg leading-relaxed text-center">
+                <p class="text-gray-600 text-lg leading-relaxed">
                     Descreva suas atividades diárias em inglês de forma natural
                 </p>
             </a>
 
-            <a href="doctor.html" class="group bg-white/90 backdrop-blur-sm rounded-3xl p-6 shadow-xl hover:shadow-2xl card-hover no-underline flex flex-col items-center text-center border border-white/20 transform transition-all duration-500">
-                <div class="text-7xl mb-4 group-hover:scale-125 transition-transform duration-500 group-hover:rotate-6">🏥</div>
-                <h2 class="text-2xl font-bold text-primary mb-4 group-hover:text-secondary transition-colors duration-300">
+            <a href="doctor.html" class="group bg-white rounded-2xl p-5 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 transform no-underline flex flex-col items-center text-center">
+                <div class="text-6xl mb-4 group-hover:scale-110 transition-transform duration-300">🏥</div>
+                <h2 class="text-2xl font-bold text-primary mb-4 group-hover:text-secondary transition-colors">
                     Visita ao Médico
                 </h2>
-                <p class="text-gray-600 text-lg leading-relaxed text-center">
+                <p class="text-gray-600 text-lg leading-relaxed">
                     Vocabulário médico e situações comuns em consultas
                 </p>
             </a>
 
-            <a href="restaurant.html" class="group bg-white/90 backdrop-blur-sm rounded-3xl p-6 shadow-xl hover:shadow-2xl card-hover no-underline flex flex-col items-center text-center border border-white/20 transform transition-all duration-500">
-                <div class="text-7xl mb-4 group-hover:scale-125 transition-transform duration-500 group-hover:rotate-6">🍽️</div>
-                <h2 class="text-2xl font-bold text-primary mb-4 group-hover:text-secondary transition-colors duration-300">
+            <a href="restaurant.html" class="group bg-white rounded-2xl p-5 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 transform no-underline flex flex-col items-center text-center">
+                <div class="text-6xl mb-4 group-hover:scale-110 transition-transform duration-300">🍽️</div>
+                <h2 class="text-2xl font-bold text-primary mb-4 group-hover:text-secondary transition-colors">
                     No Restaurante
                 </h2>
-                <p class="text-gray-600 text-lg leading-relaxed text-center">
+                <p class="text-gray-600 text-lg leading-relaxed">
                     Faça pedidos e converse com garçons em inglês
                 </p>
             </a>
 
-            <a href="weekend-trip.html" class="group bg-white/90 backdrop-blur-sm rounded-3xl p-6 shadow-xl hover:shadow-2xl card-hover no-underline flex flex-col items-center text-center border border-white/20 transform transition-all duration-500">
-                <div class="text-7xl mb-4 group-hover:scale-125 transition-transform duration-500 group-hover:rotate-6">✈️</div>
-                <h2 class="text-2xl font-bold text-primary mb-4 group-hover:text-secondary transition-colors duration-300">
+            <a href="weekend-trip.html" class="group bg-white rounded-2xl p-5 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 transform no-underline flex flex-col items-center text-center">
+                <div class="text-6xl mb-4 group-hover:scale-110 transition-transform duration-300">✈️</div>
+                <h2 class="text-2xl font-bold text-primary mb-4 group-hover:text-secondary transition-colors">
                     Viagem de Fim de Semana
                 </h2>
-                <p class="text-gray-600 text-lg leading-relaxed text-center">
+                <p class="text-gray-600 text-lg leading-relaxed">
                     Planeje viagens e fale sobre turismo em inglês
                 </p>
             </a>
 
-            <a href="technology.html" class="group bg-white/90 backdrop-blur-sm rounded-3xl p-6 shadow-xl hover:shadow-2xl card-hover no-underline flex flex-col items-center text-center border border-white/20 transform transition-all duration-500">
-                <div class="text-7xl mb-4 group-hover:scale-125 transition-transform duration-500 group-hover:rotate-6">💻</div>
-                <h2 class="text-2xl font-bold text-primary mb-4 group-hover:text-secondary transition-colors duration-300">
+            <a href="technology.html" class="group bg-white rounded-2xl p-5 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 transform no-underline flex flex-col items-center text-center">
+                <div class="text-6xl mb-4 group-hover:scale-110 transition-transform duration-300">💻</div>
+                <h2 class="text-2xl font-bold text-primary mb-4 group-hover:text-secondary transition-colors">
                     Tecnologias
                 </h2>
-                <p class="text-gray-600 text-lg leading-relaxed text-center">
+                <p class="text-gray-600 text-lg leading-relaxed">
                     Vocabulário tech do mundo moderno e inovação
                 </p>
             </a>
 
-            <a href="programming.html" class="group bg-white/90 backdrop-blur-sm rounded-3xl p-6 shadow-xl hover:shadow-2xl card-hover no-underline flex flex-col items-center text-center border border-white/20 transform transition-all duration-500">
-                <div class="text-7xl mb-4 group-hover:scale-125 transition-transform duration-500 group-hover:rotate-6">👨‍💻</div>
-                <h2 class="text-2xl font-bold text-primary mb-4 group-hover:text-secondary transition-colors duration-300">
+            <a href="programming.html" class="group bg-white rounded-2xl p-5 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 transform no-underline flex flex-col items-center text-center">
+                <div class="text-6xl mb-4 group-hover:scale-110 transition-transform duration-300">👨‍💻</div>
+                <h2 class="text-2xl font-bold text-primary mb-4 group-hover:text-secondary transition-colors">
                     Programação
                 </h2>
-                <p class="text-gray-600 text-lg leading-relaxed text-center">
+                <p class="text-gray-600 text-lg leading-relaxed">
                     Back-end, Java, boas práticas, testes e arquitetura
                 </p>
             </a>
 
-            <a href="clean-code.html" class="group bg-white/90 backdrop-blur-sm rounded-3xl p-6 shadow-xl hover:shadow-2xl card-hover no-underline flex flex-col items-center text-center border border-white/20 transform transition-all duration-500">
-                <div class="text-7xl mb-4 group-hover:scale-125 transition-transform duration-500 group-hover:rotate-6">📝</div>
-                <h2 class="text-2xl font-bold text-primary mb-4 group-hover:text-secondary transition-colors duration-300">
+            <a href="clean-code.html" class="group bg-white rounded-2xl p-5 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 transform no-underline flex flex-col items-center text-center">
+                <div class="text-6xl mb-4 group-hover:scale-110 transition-transform duration-300">📝</div>
+                <h2 class="text-2xl font-bold text-primary mb-4 group-hover:text-secondary transition-colors">
                     Código Limpo
                 </h2>
-                <p class="text-gray-600 text-lg leading-relaxed text-center">
+                <p class="text-gray-600 text-lg leading-relaxed">
                     Clean Code, boas práticas e código legível
                 </p>
             </a>
 
-            <a href="cicd-jenkins.html" class="group bg-white/90 backdrop-blur-sm rounded-3xl p-6 shadow-xl hover:shadow-2xl card-hover no-underline flex flex-col items-center text-center border border-white/20 transform transition-all duration-500">
-                <div class="text-7xl mb-4 group-hover:scale-125 transition-transform duration-500 group-hover:rotate-6">🔄</div>
-                <h2 class="text-2xl font-bold text-primary mb-4 group-hover:text-secondary transition-colors duration-300">
+            <a href="cicd-jenkins.html" class="group bg-white rounded-2xl p-5 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 transform no-underline flex flex-col items-center text-center">
+                <div class="text-6xl mb-4 group-hover:scale-110 transition-transform duration-300">🔄</div>
+                <h2 class="text-2xl font-bold text-primary mb-4 group-hover:text-secondary transition-colors">
                     CI/CD com Jenkins
                 </h2>
-                <p class="text-gray-600 text-lg leading-relaxed text-center">
+                <p class="text-gray-600 text-lg leading-relaxed">
                     Integração e Deploy Contínuo com automação
                 </p>
             </a>
 
-            <a href="react.html" class="group bg-white/90 backdrop-blur-sm rounded-3xl p-6 shadow-xl hover:shadow-2xl card-hover no-underline flex flex-col items-center text-center border border-white/20 transform transition-all duration-500">
-                <div class="text-7xl mb-4 group-hover:scale-125 transition-transform duration-500 group-hover:rotate-6">⚛️</div>
-                <h2 class="text-2xl font-bold text-primary mb-4 group-hover:text-secondary transition-colors duration-300">
+            <a href="react.html" class="group bg-white rounded-2xl p-5 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 transform no-underline flex flex-col items-center text-center">
+                <div class="text-6xl mb-4 group-hover:scale-110 transition-transform duration-300">⚛️</div>
+                <h2 class="text-2xl font-bold text-primary mb-4 group-hover:text-secondary transition-colors">
                     React
                 </h2>
-                <p class="text-gray-600 text-lg leading-relaxed text-center">
+                <p class="text-gray-600 text-lg leading-relaxed">
                     Biblioteca JavaScript para interfaces de usuário
                 </p>
             </a>
 
-            <a href="docker.html" class="group bg-white/90 backdrop-blur-sm rounded-3xl p-6 shadow-xl hover:shadow-2xl card-hover no-underline flex flex-col items-center text-center border border-white/20 transform transition-all duration-500">
-                <div class="text-7xl mb-4 group-hover:scale-125 transition-transform duration-500 group-hover:rotate-6">🐳</div>
-                <h2 class="text-2xl font-bold text-primary mb-4 group-hover:text-secondary transition-colors duration-300">
+            <a href="docker.html" class="group bg-white rounded-2xl p-5 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 transform no-underline flex flex-col items-center text-center">
+                <div class="text-6xl mb-4 group-hover:scale-110 transition-transform duration-300">🐳</div>
+                <h2 class="text-2xl font-bold text-primary mb-4 group-hover:text-secondary transition-colors">
                     Docker
                 </h2>
-                <p class="text-gray-600 text-lg leading-relaxed text-center">
+                <p class="text-gray-600 text-lg leading-relaxed">
                     Containerização e deployment de aplicações
                 </p>
             </a>
 
-            <a href="kubernetes.html" class="group bg-white/90 backdrop-blur-sm rounded-3xl p-6 shadow-xl hover:shadow-2xl card-hover no-underline flex flex-col items-center text-center border border-white/20 transform transition-all duration-500">
-                <div class="text-7xl mb-4 group-hover:scale-125 transition-transform duration-500 group-hover:rotate-6">☸️</div>
-                <h2 class="text-2xl font-bold text-primary mb-4 group-hover:text-secondary transition-colors duration-300">
+            <a href="kubernetes.html" class="group bg-white rounded-2xl p-5 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 transform no-underline flex flex-col items-center text-center">
+                <div class="text-6xl mb-4 group-hover:scale-110 transition-transform duration-300">☸️</div>
+                <h2 class="text-2xl font-bold text-primary mb-4 group-hover:text-secondary transition-colors">
                     Kubernetes
                 </h2>
-                <p class="text-gray-600 text-lg leading-relaxed text-center">
+                <p class="text-gray-600 text-lg leading-relaxed">
                     Orquestração de containers e microserviços
                 </p>
             </a>
 
-            <a href="aws.html" class="group bg-white/90 backdrop-blur-sm rounded-3xl p-6 shadow-xl hover:shadow-2xl card-hover no-underline flex flex-col items-center text-center border border-white/20 transform transition-all duration-500">
-                <div class="text-7xl mb-4 group-hover:scale-125 transition-transform duration-500 group-hover:rotate-6">☁️</div>
-                <h2 class="text-2xl font-bold text-primary mb-4 group-hover:text-secondary transition-colors duration-300">
+            <a href="aws.html" class="group bg-white rounded-2xl p-5 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 transform no-underline flex flex-col items-center text-center">
+                <div class="text-6xl mb-4 group-hover:scale-110 transition-transform duration-300">☁️</div>
+                <h2 class="text-2xl font-bold text-primary mb-4 group-hover:text-secondary transition-colors">
                     AWS
                 </h2>
-                <p class="text-gray-600 text-lg leading-relaxed text-center">
+                <p class="text-gray-600 text-lg leading-relaxed">
                     Cloud computing e serviços Amazon Web Services
                 </p>
             </a>
 
-            <a href="graphql.html" class="group bg-white/90 backdrop-blur-sm rounded-3xl p-6 shadow-xl hover:shadow-2xl card-hover no-underline flex flex-col items-center text-center border border-white/20 transform transition-all duration-500">
-                <div class="text-7xl mb-4 group-hover:scale-125 transition-transform duration-500 group-hover:rotate-6">🔷</div>
-                <h2 class="text-2xl font-bold text-primary mb-4 group-hover:text-secondary transition-colors duration-300">
+            <a href="graphql.html" class="group bg-white rounded-2xl p-5 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 transform no-underline flex flex-col items-center text-center">
+                <div class="text-6xl mb-4 group-hover:scale-110 transition-transform duration-300">🔷</div>
+                <h2 class="text-2xl font-bold text-primary mb-4 group-hover:text-secondary transition-colors">
                     GraphQL
                 </h2>
-                <p class="text-gray-600 text-lg leading-relaxed text-center">
+                <p class="text-gray-600 text-lg leading-relaxed">
                     Linguagem de consulta moderna para APIs
                 </p>
             </a>
 
-            <a href="typescript.html" class="group bg-white/90 backdrop-blur-sm rounded-3xl p-6 shadow-xl hover:shadow-2xl card-hover no-underline flex flex-col items-center text-center border border-white/20 transform transition-all duration-500">
-                <div class="text-7xl mb-4 group-hover:scale-125 transition-transform duration-500 group-hover:rotate-6">📘</div>
-                <h2 class="text-2xl font-bold text-primary mb-4 group-hover:text-secondary transition-colors duration-300">
+            <a href="typescript.html" class="group bg-white rounded-2xl p-5 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 transform no-underline flex flex-col items-center text-center">
+                <div class="text-6xl mb-4 group-hover:scale-110 transition-transform duration-300">📘</div>
+                <h2 class="text-2xl font-bold text-primary mb-4 group-hover:text-secondary transition-colors">
                     TypeScript
                 </h2>
-                <p class="text-gray-600 text-lg leading-relaxed text-center">
+                <p class="text-gray-600 text-lg leading-relaxed">
                     JavaScript com tipagem estática e superpowers
                 </p>
             </a>
 
-            <a href="angular.html" class="group bg-white/90 backdrop-blur-sm rounded-3xl p-6 shadow-xl hover:shadow-2xl card-hover no-underline flex flex-col items-center text-center border border-white/20 transform transition-all duration-500">
-                <div class="text-7xl mb-4 group-hover:scale-125 transition-transform duration-500 group-hover:rotate-6">🔺</div>
-                <h2 class="text-2xl font-bold text-primary mb-4 group-hover:text-secondary transition-colors duration-300">
+            <a href="angular.html" class="group bg-white rounded-2xl p-5 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 transform no-underline flex flex-col items-center text-center">
+                <div class="text-6xl mb-4 group-hover:scale-110 transition-transform duration-300">🔺</div>
+                <h2 class="text-2xl font-bold text-primary mb-4 group-hover:text-secondary transition-colors">
                     Angular
                 </h2>
-                <p class="text-gray-600 text-lg leading-relaxed text-center">
+                <p class="text-gray-600 text-lg leading-relaxed">
                     Framework para aplicações web com componentes e serviços
                 </p>
             </a>
 
-            <a href="making-friends.html" class="group bg-white/90 backdrop-blur-sm rounded-3xl p-6 shadow-xl hover:shadow-2xl card-hover no-underline flex flex-col items-center text-center border border-white/20 transform transition-all duration-500">
-                <div class="text-7xl mb-4 group-hover:scale-125 transition-transform duration-500 group-hover:rotate-6">🤝</div>
-                <h2 class="text-2xl font-bold text-primary mb-4 group-hover:text-secondary transition-colors duration-300">
+            <a href="making-friends.html" class="group bg-white rounded-2xl p-5 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 transform no-underline flex flex-col items-center text-center">
+                <div class="text-6xl mb-4 group-hover:scale-110 transition-transform duration-300">🤝</div>
+                <h2 class="text-2xl font-bold text-primary mb-4 group-hover:text-secondary transition-colors">
                     Como Fazer Amigos
                 </h2>
-                <p class="text-gray-600 text-lg leading-relaxed text-center">
+                <p class="text-gray-600 text-lg leading-relaxed">
                     Habilidades sociais para criar amizades na vida adulta
                 </p>
             </a>
         </div>
 
-        <footer class="text-center py-8 text-white relative z-10">
-            <div class="absolute -top-4 -left-4 w-16 h-16 bg-green-400 rounded-full mix-blend-multiply filter blur-xl opacity-30 animate-pulse"></div>
-            <div class="absolute -bottom-4 -right-4 w-16 h-16 bg-red-400 rounded-full mix-blend-multiply filter blur-xl opacity-30 animate-pulse animation-delay-2000"></div>
-            <p class="text-lg font-medium relative z-10">© 2026 Aprender Inglês - Aprenda inglês de forma prática e divertida!</p>
+        <footer class="text-center py-8 text-white">
+            <p class="text-lg">© 2026 Aprender Inglês - Aprenda inglês de forma prática e divertida!</p>
         </footer>
     </div>
 </body>
